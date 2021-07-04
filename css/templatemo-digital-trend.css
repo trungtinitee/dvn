@@ -358,7 +358,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .make-phone-call{
     margin-top: 20px;
-    padding-left: 15px;
+    padding-left: 45px;
   }
 
   .click-to-call{
@@ -375,97 +375,26 @@ https://templatemo.com/tm-538-digital-trend
   .btn-contact{
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 25px;
+    color: #0c8195;
     padding: 15px 0px;
     text-align: center;
     display: block;
-    background-color: #18914e;
+    background: linear-gradient(45deg, #ffffff 0%, #8dd8a8 100%);
     box-shadow: 0 5px 5px rgba(0,0,0,.5);
     width: 350px;
+    border: solid 1px var(--dark-color);
+    border-left: solid 8px var(--dark-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 25px;
   }
 
-  .btn-contact span:nth-child(1) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to right, #70daa0, #066832);
-}
-.btn-contact span:nth-child(2) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(to bottom, #70daa0, #066832);
-}
-.btn-contact span:nth-child(3) {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to left, #70daa0, #066832);
-}
-.btn-contact span:nth-child(4) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(to bottom, #70daa0, #066832);
-}
-
-.btn-contact span:nth-child(1) {
-  animation: animated1 2s linear infinite;
-}
-@keyframes animated1{
-  0%{
-      transform: translateX(-100%);
-  }
-  100%{
-      transform: translateX(100%);
-  }
-}
-.btn-contact span:nth-child(2) {
-  animation: animated2 2s linear infinite;
-  animation-delay: 1s;
-}
-@keyframes animated2{
-  0%{
-      transform: translateY(-100%);
-  }
-  100%{
-      transform: translateY(100%);
-  }
-}
-.btn-contact span:nth-child(3) {
-  animation: animated3 2s linear infinite;
-}
-@keyframes animated3{
-  0%{
-      transform: translateX(100%);
-  }
-  100%{
-      transform: translateX(-100%);
-  }
-}
-.btn-contact span:nth-child(4) {
-  animation: animated4 2s linear infinite;
-  animation-delay: 1s;
-}
-@keyframes animated4{
-  0%{
-      transform: translateY(100%);
-  }
-  100%{
-      transform: translateY(-100%);
-  }
-}
-  .btn-contact{
-  overflow: hidden;
+  .btn-contact:hover,
+  .btn-contact:focus {
+    border: solid 1px #b1e6c4;
+    background: var(--dark-color);
+    color: var(--white-color);
+    transition: all 1s;
   }
 
   /*---------------------------------------
