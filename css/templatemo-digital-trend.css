@@ -356,7 +356,116 @@ https://templatemo.com/tm-538-digital-trend
     top: 2em;
   }
 
+  .make-phone-call{
+    padding-top: 5px;
+    padding-left: 15px;
+  }
 
+  .click-to-call{
+    display: block;
+    padding: 5px 15px;
+    background-color: #0c8195;
+    width: 250px;
+    margin-top: 3px;
+    border-radius: 50px;
+    color: #ffffff;
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+  }
+
+  .btn-contact{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px 0px;
+    text-align: center;
+    display: block;
+    background-color: #18914e;
+    box-shadow: 0 10px 30px rgba(0,0,0,.5);
+    width: 350px;
+  }
+
+  .btn-contact span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #70daa0, #066832);
+}
+.btn-contact span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #70daa0, #066832);
+}
+.btn-contact span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, #70daa0, #066832);
+}
+.btn-contact span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #70daa0, #066832);
+}
+
+.btn-contact span:nth-child(1) {
+  animation: animated1 2s linear infinite;
+}
+@keyframes animated1{
+  0%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(100%);
+  }
+}
+.btn-contact span:nth-child(2) {
+  animation: animated2 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animated2{
+  0%{
+      transform: translateY(-100%);
+  }
+  100%{
+      transform: translateY(100%);
+  }
+}
+.btn-contact span:nth-child(3) {
+  animation: animated3 2s linear infinite;
+}
+@keyframes animated3{
+  0%{
+      transform: translateX(100%);
+  }
+  100%{
+      transform: translateX(-100%);
+  }
+}
+.btn-contact span:nth-child(4) {
+  animation: animated4 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animated4{
+  0%{
+      transform: translateY(100%);
+  }
+  100%{
+      transform: translateY(-100%);
+  }
+}
+  .btn-contact{
+  overflow: hidden;
+  }
 
   /*---------------------------------------
      PROJECT              
