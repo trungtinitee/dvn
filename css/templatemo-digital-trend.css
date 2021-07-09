@@ -385,8 +385,7 @@ https://templatemo.com/tm-538-digital-trend
     width: 350px;
     border: solid 1px var(--dark-color);
     border-left: solid 8px var(--dark-color);
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 25px;
+    border-right: solid 8px var(--dark-color);
   }
 
   .btn-contact:hover,
