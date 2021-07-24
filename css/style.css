@@ -1139,7 +1139,7 @@ a:focus {
     margin: 45px 0;
     padding: 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(10, 70, 80, .9), rgba(10, 70, 80, .9)), url(../img/hidden-img2.jpg);
+    background: linear-gradient(rgba(10, 70, 80, .9), rgba(10, 70, 80, .9)), url(../img/shake-hand.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1203,7 +1203,7 @@ a:focus {
 }
 
 .testimonial .testimonial-slider h3 {
-    color: #3ba956;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 700;
 }
@@ -1223,6 +1223,12 @@ a:focus {
     margin: 0;
 }
 
+.company-co{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3ba956;
+    margin-bottom: 15px;
+}
 
 /*******************************/
 /*********** Blog CSS **********/
